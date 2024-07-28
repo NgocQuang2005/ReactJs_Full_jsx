@@ -63,11 +63,14 @@ các hàm setInterval ==> `hàm xét thời gian`
 
 => do kh thể sử dụng cài được nên hãy dùng link:))
 
-### 5, cài react_query `yarn add @tanstack/react-query` => `QueryClient` và `QueryClientProvider` hai cái này nhiệm vụ là bao bọc cái router của `react_router_dom ` để chuyển trang => `QueryClient` và `QueryClientProvider` được sử dụng để thiết lập context cho các truy vấn. => và có 1 cái nữa là `useQuery` được sử dụng để fetch và quản lý dữ liệu từ API.
+### 5, cài react_query 
+    yarn add @tanstack/react-query 
+=> `QueryClient` và `QueryClientProvider` hai cái này nhiệm vụ là bao bọc cái router của `react_router_dom ` để chuyển trang => `QueryClient` và `QueryClientProvider` được sử dụng để thiết lập context cho các truy vấn. => và có 1 cái nữa là `useQuery` được sử dụng để fetch và quản lý dữ liệu từ API.
 
-### 6, cài đặt react-helmet `yarn add react-helmet` =>
+### 6, cài đặt react-helmet 
+    yarn add react-helmet
 
-    react-helmet là một thư viện React dùng để quản lý thay đổi các thành phần <head> trong tài liệu HTML của bạn, chẳng hạn như tiêu đề trang, meta tags, và các thuộc tính khác. Điều này rất hữu ích cho việc tối ưu hóa SEO và quản lý metadata một cách dễ dàng trong các ứng dụng React.
+=> react-helmet là một thư viện React dùng để quản lý thay đổi các thành phần <head> trong tài liệu HTML của bạn, chẳng hạn như tiêu đề trang, meta tags, và các thuộc tính khác. Điều này rất hữu ích cho việc tối ưu hóa SEO và quản lý metadata một cách dễ dàng trong các ứng dụng React.
 
 ### Ví dụ : Ví dụ đang ở trang home , mình muốn đặt tiêu đề phải là như sau =>
 
@@ -75,17 +78,18 @@ các hàm setInterval ==> `hàm xét thời gian`
       <title>Đây là trang Home</title>
     </Helmet>
 
-### 7, cài react-hook-form `yarn add react-hook-form`
+### 7, cài react-hook-form 
+    yarn add react-hook-form
 
-    nó sẽ để quản lý các form 1 cách hiệu quả Nó cung cấp các hook để xử lý việc validate, submit, và quản lý trạng thái của các input fields trong form một cách dễ dàng mà không cần phải sử dụng các component class.
+=> nó sẽ để quản lý các form 1 cách hiệu quả Nó cung cấp các hook để xử lý việc validate, submit, và quản lý trạng thái của các input fields trong form một cách dễ dàng mà không cần phải sử dụng các component class.
 
 ### Chức Năng:
 
-    CÁC TÍNH NĂNG CHÍNH CỦA react-hook-form:
-    HIỆU NĂNG CAO: react-hook-form giảm thiểu số lần render lại không cần thiết, giúp form hoạt động mượt mà hơn.
-    DỄ SỬ DỤNG: Cung cấp các API đơn giản và trực quan.
-    TÍCH HỢP DỄ DÀNG: Dễ dàng tích hợp với các thư viện và framework khác như Yup, Zod, và Material-UI.
-    HỖ TRỢ MẠNH MẼ CHO validation: Cung cấp nhiều tùy chọn để validate các input fields.
+CÁC TÍNH NĂNG CHÍNH CỦA react-hook-form:
+HIỆU NĂNG CAO: react-hook-form giảm thiểu số lần render lại không cần thiết, giúp form hoạt động mượt mà hơn.
+DỄ SỬ DỤNG: Cung cấp các API đơn giản và trực quan.
+TÍCH HỢP DỄ DÀNG: Dễ dàng tích hợp với các thư viện và framework khác như Yup, Zod, và Material-UI.
+HỖ TRỢ MẠNH MẼ CHO validation: Cung cấp nhiều tùy chọn để validate các input fields.
 
 ### Ví dụ :
 
@@ -132,10 +136,14 @@ các hàm setInterval ==> `hàm xét thời gian`
 
     export default RegistrationForm;
 
-### 8, Có thể cài `yarn add redux` => `yarn add react-redux` => cài 2 lệnh này .. mục đích của `react-redux` Redux là một thư viện quản lý state, giúp bạn lưu trữ và quản lý trạng thái của ứng dụng một cách có tổ chức và dễ dự đoán.
+### 8, Có thể cài 
+    yarn add redux
+    yarn add react-redux
+=> cài 2 lệnh này .. mục đích của `react-redux` Redux là một thư viện quản lý state, giúp bạn lưu trữ và quản lý trạng thái của ứng dụng một cách có tổ chức và dễ dự đoán.
 
-### 9, Cài thử viên react-slick `yarn add react-slick slick-carousel` => Thêm file css cho nó ở trong trang mà cần dùng đến
-
+### 9, Cài thử viên react-slick 
+    yarn add react-slick slick-carousel 
+=> Thêm file css cho nó ở trong trang mà cần dùng đến
     import "slick-carousel/slick/slick.css";
     import "slick-carousel/slick/slick-theme.css";
 
@@ -179,9 +187,11 @@ các hàm setInterval ==> `hàm xét thời gian`
 
     export default SliderComponent;
 
-### hãy tham khảo thêm ở trên gg search `react-slicks`
+### hãy tham khảo thêm ở trên gg search 
+    react-slicks
 
-### 10, Cài swiper để dùng slider nữa cug dc `yarn add swiper`
+### 10, Cài swiper để dùng slider nữa cug dc 
+    yarn add swiper
 
 ### Ví dụ:
 
@@ -227,14 +237,15 @@ các hàm setInterval ==> `hàm xét thời gian`
 
 ### Rồi mình import ra ở trang mình cần chạy là chạy nó
 
-### 11, Cài zustand `yarn add zustand` => `zustand` là một thư viện quản lý state (trạng thái) cho các ứng dụng React. Nó cung cấp một API đơn giản và hiệu quả để quản lý và chia sẻ trạng thái giữa các component mà không cần phải sử dụng các phương pháp quản lý state phức tạp hơn như Redux.
+### 11, Cài zustand 
+    yarn add zustand 
+=> `zustand` là một thư viện quản lý state (trạng thái) cho các ứng dụng React. Nó cung cấp một API đơn giản và hiệu quả để quản lý và chia sẻ trạng thái giữa các component mà không cần phải sử dụng các phương pháp quản lý state phức tạp hơn như Redux.
 
 ### Các Tính Năng Chính:
-
-    Nhẹ và nhanh: zustand rất nhẹ và hiệu quả trong việc quản lý trạng thái.
-    Dễ sử dụng: Cung cấp một API đơn giản và dễ hiểu, không cần boilerplate code phức tạp.
-    Tích hợp dễ dàng: Có thể dễ dàng tích hợp vào các ứng dụng React hiện tại mà không cần thay đổi cấu trúc hiện tại của ứng dụng.
-    Tính năng immer tích hợp sẵn: Hỗ trợ cập nhật state theo kiểu không thay đổi (immutable) nhờ vào immer.
+Nhẹ và nhanh: zustand rất nhẹ và hiệu quả trong việc quản lý trạng thái.
+Dễ sử dụng: Cung cấp một API đơn giản và dễ hiểu, không cần boilerplate code phức tạp.
+Tích hợp dễ dàng: Có thể dễ dàng tích hợp vào các ứng dụng React hiện tại mà không cần thay đổi cấu trúc hiện tại của ứng dụng.
+Tính năng immer tích hợp sẵn: Hỗ trợ cập nhật state theo kiểu không thay đổi (immutable) nhờ vào immer.
 
 ### Ví Dụ :
 
@@ -277,8 +288,6 @@ các hàm setInterval ==> `hàm xét thời gian`
 
 ### Đang Cập Nhật Thêm....
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-
 ### Cấu trúc của file `app.jsx` khi sử dụng react_router_dom
 
 ### Lưu ý : `Trong reactjs muốn lấy ảnh ra cũng phải import , nên đặt tên để lấy ảnh ra.`
@@ -315,12 +324,7 @@ các hàm setInterval ==> `hàm xét thời gian`
 
 ### Đây là cấu trúc của app
 
-### css :
-
-1 thẻ div hoặc các thẻ nào trong html muốn chỉ xuất hiện cái đó trong bao nhiêu dòng , và nếu quá số dòng thì sẽ ... thì dưới đây là đoạn css:
-
-###
-
+### css : 1 thẻ div hoặc các thẻ nào trong html muốn chỉ xuất hiện cái đó trong bao nhiêu dòng , và nếu quá số dòng thì sẽ ... thì dưới đây là đoạn css:
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
