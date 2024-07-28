@@ -1,24 +1,24 @@
-### `yarn start`
+### Lệnh Chạy
+ yarn start
 
-### `rafce`
-
+### Lệnh Tạo Bố Cục
+ rafce
 các hàm setInterval ==> `hàm xét thời gian`
-const [loadingStatus, setLoadingStatus] = useState('.')
-const [loop, setLoop] = useState()
-useEffect(() => {
-setLoop(setInterval(() => {
-console.log("loading")
-setLoadingStatus(loadingStatus + ".")
-}, 1000))
-
+    const [loadingStatus, setLoadingStatus] = useState('.')
+    const [loop, setLoop] = useState()
+    useEffect(() => {
+    setLoop(setInterval(() => {
+    console.log("loading")
+    setLoadingStatus(loadingStatus + ".")
+    }, 1000))
         return function cleanup() {
             console.log('cleaning up')
             clearInterval(loop)
         }
     }, [])
 
-### `ctrl shift L ` sẽ chọn tất cả các cái mình bôi đen giống nhau
-
+###  chọn tất cả các cái mình bôi đen giống nhau
+    ctrl shift L
 ### `Thẻ Link` là của react_router_dom sử dụng để chuyển trang
 
 ### bắt đầu khởi tạo 1 dự án react js
@@ -27,23 +27,35 @@ setLoadingStatus(loadingStatus + ".")
 
 ### `KHỞI TẠO DỰ ÁN REACT JS`
 
-### 1, `npx create-react-app (tên folder muốn đặt)`
+### 1, 
+    npx create-react-app 
 
-### 2, cài thư viện tailwind `npm install -D tailwindcss` => `npx tailwindcss init` => ở tệp tailwin.config thêm `content: ["./src/**/*.{html,js,jsx,ts,tsx}",],`
+### 2, cài thư viện tailwind 
+    npm install -D tailwindcss 
+    npx tailwindcss init 
+### ở tệp tailwin.config thêm 
+    content: ["./src/**/*.{html,js,jsx,ts,tsx}",],
 
-### 2, vào index.css ném cái này vào `@tailwind base; @tailwind components; @tailwind utilities;` => cài các gói phụ thuộc `yarn add tailwindcss postcss autoprefixer`
-
+### 2, vào index.css ném cái này vào 
+    @tailwind base; 
+    @tailwind components; 
+    @tailwind utilities;
+### cài các gói phụ thuộc 
+    yarn add tailwindcss postcss autoprefixer
 ### 2, ở package.json tìm đến chỗ có cái này vào sửa :
 
-"devDependencies": {
-"autoprefixer": "^10.4.19",
-"postcss": "^8.4.39",
-"tailwindcss": "^3.4.6"
-}
+    "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6"
+    }
 
-### 2, chạy lại 1 lần nữa `yarn add postcss autoprefixer --dev`
+### 2, chạy lại 1 lần nữa 
+    yarn add postcss autoprefixer --dev
 
-### 3, cài đặt dom `npm install react-router-dom` => cài cái này rồi mới làm được phân trang
+### 3, cài đặt dom 
+    npm install react-router-dom
+=> cài cái này rồi mới làm được phân trang
 
 ### 4, cài đặt fontawesome ném link này vào chỗ index.html ở public:
 
